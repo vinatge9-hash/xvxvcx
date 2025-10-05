@@ -1,0 +1,1 @@
+{\n  \"name\": \"Coffee Shop UI\",\n  \"description\": \"A collection of reusable components for the coffee shop site.\",\n  \"components\": [\n    { \"name\": \"Button\", \"path\": \"src/components/ui/button.tsx\" },\n    { \"name\": \"Sheet\", \"path\": \"src/components/ui/sheet.tsx\" },\n    { \"name\": \"Card\", \"path\": \"src/components/ui/card.tsx\" }\n  ]\n}
