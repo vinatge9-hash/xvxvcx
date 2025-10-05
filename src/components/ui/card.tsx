@@ -1,0 +1,1 @@
+import React from 'react';\nimport { cn } from '@/lib/utils';\n\ntype CardProps = React.HTMLAttributes<HTMLDivElement>;\n\nexport const Card: React.FC<CardProps> = ({ className, children, ...props }) => (\n  <div className={cn('rounded-lg border border-muted/50 bg-card p-4', className)} {...props}>\n    {children}\n  </div>\n);
